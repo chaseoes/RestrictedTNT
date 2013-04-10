@@ -11,8 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class RestrictedTNT extends JavaPlugin implements Listener {
 	
 	public void onEnable() {
-		getConfig().options().copyDefaults(true);
-		saveConfig();
+		saveDefaultConfig();
 		getServer().getPluginManager().registerEvents(this, this);
 	}
 	
