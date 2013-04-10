@@ -1,0 +1,9 @@
+name: RestrictedTNT
+main: me.chaseoes.restrictedtnt.RestrictedTNT
+version: 1.0
+description: Prevent players without permission from placing TNT.
+author: chaseoes
+website: http://dev.bukkit.org/server-mods/restrictedtnt/
+permissions:
+  restrictedtnt.place:
+    description: Allows players to place TNT.
